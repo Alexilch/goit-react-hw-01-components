@@ -1,6 +1,7 @@
 {
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
+  "homepage": "https://alexilch.github.io/goit-react-hw-01-components/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.1",
@@ -9,7 +10,7 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^3.4.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -17,7 +18,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
