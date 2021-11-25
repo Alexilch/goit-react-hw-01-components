@@ -1,6 +1,8 @@
-/* .statistics{
-    
-} */
+.statistics{
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .title {
   display: flex;
   justify-content: center;
@@ -20,6 +22,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .label {
   padding-bottom: 10px;
 }

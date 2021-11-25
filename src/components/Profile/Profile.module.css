@@ -1,8 +1,9 @@
 .profile {
-  max-width: 300px;
+  max-width: 350px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(194, 194, 194);
+  background-color: #ddd;
 }
 
 .description {

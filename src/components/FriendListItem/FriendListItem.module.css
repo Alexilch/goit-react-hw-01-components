@@ -1,0 +1,22 @@
+
+.online {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: green;
+}
+.offline {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: red;
+}
+.item{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    border-radius: 5px;
+    background-color: #ddd;
+}

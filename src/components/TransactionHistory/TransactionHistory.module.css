@@ -1,0 +1,19 @@
+.transactionHistory{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.threadtitle{
+    background-color: rgb(80, 205, 240);
+    height: 50px;
+    color: white;
+}
+.tablebody{
+    text-align: center;
+}
+.tablerow{
+    height: 40px;
+}
+.tablerow:nth-child(odd) {
+    background-color: #ddd;
+  }
