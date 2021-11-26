@@ -3,12 +3,17 @@
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ddd;
+  background-color: rgb(247, 247, 247);
+}
+.profilename{
+  color: black;
+  font-weight: 700;
 }
 
 .description {
   font-weight: 500;
   text-align: center;
+  color: darkgray;
 }
 
 .avatar {
@@ -19,10 +24,20 @@
 .stats {
   display: flex;
   justify-content: space-between;
-  padding: 0;
+  padding: 0px;
+  background-color: #ddd
 }
 
 .statsitem {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  text-align: center;
+  border: 1px rgb(153, 153, 153) solid;
+}
+.label{
+  color: darkgray;
+}
+.statsquantity{
+  font-weight: 500;
 }

@@ -7,7 +7,7 @@ export default function Profile(props) {
     <div className={s.profile}>
       <div className={s.description}>
         <img src={avatar} alt="User avatar" className={s.avatar} />
-        <p>{username}</p>
+        <p className={s.profilename}>{username}</p>
         <p>{tag}</p>
         <p>{location}</p>
       </div>
@@ -15,15 +15,15 @@ export default function Profile(props) {
       <ul className={s.stats}>
         <li className={s.statsitem}>
           <span className={s.label}>Followers</span>
-          <span>{stats.followers}</span>
+          <span className={s.statsquantity}>{stats.followers}</span>
         </li>
         <li className={s.statsitem}>
           <span className={s.label}>Views</span>
-          <span>{stats.views}</span>
+          <span className={s.statsquantity}>{stats.views}</span>
         </li>
         <li className={s.statsitem}>
           <span className={s.label}>Likes</span>
-          <span>{stats.likes}</span>
+          <span className={s.statsquantity}>{stats.likes}</span>
         </li>
       </ul>
     </div>

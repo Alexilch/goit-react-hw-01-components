@@ -12,7 +12,7 @@ export default function Statistics(props) {
         {stats.map(({ id, label, percentage }) => (
           <li className={s.item} key={id} style={{ backgroundColor: randomColor() }}>
             <span className={s.label}>{label}</span>
-            <span className={s.percentage}>{percentage}</span>
+            <span className={s.percentage}>{percentage} %</span>
           </li>
         ))}
       </ul>
