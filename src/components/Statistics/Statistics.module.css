@@ -6,6 +6,7 @@
 .title {
   display: flex;
   justify-content: center;
+  color:rgb(119, 119, 119);
 }
 
 .statlist {
